@@ -1,0 +1,41 @@
+var obj = [
+          { person: "Name 1", age: "2", company: "GUVI" },
+          { person: "Name 2", age: "5", company: "GUVI geek" },
+          { person: "Name 3", age: "8", company: "GUVI geek network" },
+for of :
+for (const a of obj)
+{
+    console.log(a);
+}
+for each:
+obj.forEach(item=>console.log(item));
+for in:
+for(item in obj)
+{
+    console.log(item);
+}
+
+var xhr = new XMLHttpRequest();
+        xhr.open("GET", "https://restcountries.eu/rest/v2/all");
+        xhr.onload = function () {
+          var data = JSON.parse(this.response);
+          console.log(data);
+        };
+        xhr.send();
+    use the restcountries API url ->  https://restcountries.eu/rest/v2/all
+    and diplay all the country flags in console
+    3) 
+    use the same restcountries and print all countries name, region, sub region and population.
+var xhr = new XMLHttpRequest();
+        xhr.open("GET", "https://restcountries.eu/rest/v2/all");
+        xhr.onload = function () {
+          var data = JSON.parse(this.response);
+     for( a of data)
+       {
+         console.log(a.name+ " : " +a.flag+ " : "  + a.region + " : " +a.subregion + " : " + a.population);
+       }
+                 
+            
+       
+        };
+        xhr.send();
