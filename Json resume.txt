@@ -1,0 +1,8 @@
+let resume =[{NAME: "Ezhilarasi. T",CONTACT: +91-8148215010E-MAIL: "tezzzhilarasi@gmail.com"},
+{CAREER OBJECTIVE :" To work in a reputed software firm, where I can utilize my skillsset  in a piggybacking
+ way of growth,as much as to acquire knowledge for a long run"},
+{Education(Under Graduate) : "B.E. in Electrical & Electronics Engineering,IFET college of Engineering, affliated to Anna University, secured 81.20% in Year 2016" },
+{Education(Higher Secondary) : "Krishnasamy Memorial Matriculation HS School, secured 81.00% in Year 2012"},
+{Education(Primary):"Krishnasamy Memorial Matriculation HS School, secured 80.6 % in Year 2010"},
+{certifications :"Oracle Certified Java Programmer (OCJP) – Programmer Level 1"  },{
+TECHNICAL SKILLS: " MS Office Package:	Excel, Word, PowerPoint & Access,RPA blueprism"}]
